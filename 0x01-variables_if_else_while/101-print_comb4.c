@@ -9,25 +9,25 @@
 int main(void)
 
 {
-	int left_num;
-	int right_num;
-	int center_num;
+	int left;
+	int middle;
+	int right;
 
 
 
-	for (left_num = 48; left_num <= 57; left_num++)
+	for (left = 48; left <= 57; left++)
 	{
-		for (center_num = left_num + 1; center_num <= 57; center_num++)
+		for (middle = left + 1; middle <= 57; middle++)
 		{
-			for (right_num = center_num + 1 ; right_num <= 57; right_num++)
+			for (right = middle + 1 ; right <= 57; right++)
 
 
 			{
-				putchar(left_num);
-				putchar(center_num);
-				putchar(right_num);
+				putchar(left);
+				putchar(middle);
+				putchar(right);
 
-				if((left_num==55)&&(center_num==left_num +1)&&(right_num==center_num +1))
+				if ((left == 55) && (middle == left + 1) && (right == middle + 1))
 				{
 					break;
 				}
