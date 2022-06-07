@@ -27,7 +27,7 @@ int main(void)
 				putchar(center_num);
 				putchar(right_num);
 
-				if  ((left_num == 55) && (center_num == left_num + 1) && (right_num == center_num + 1))
+				if((left_num==55)&&(center_num==left_num +1)&&(right_num==center_num +1))
 				{
 					break;
 				}
